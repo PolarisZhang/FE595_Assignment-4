@@ -78,3 +78,6 @@ axes[2].set_xlabel('Sepal length', fontsize=18)
 axes[2].set_ylabel('Sepal width', fontsize=18)
 axes[2].tick_params(direction='in', length=10, width=5, colors='k', labelsize=20)
 axes[2].set_title('4 cluster', fontsize=18)
+
+## based on these three plot result, and comparing with the dataset's scatter plot, 
+## I agree with the assumption that the data set represents 3 different varieties of iris.
