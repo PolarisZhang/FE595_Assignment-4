@@ -23,6 +23,12 @@ for i in range(len(model.coef_)):
     if model.coef_[i] == maxeffect:
         print("largest effect on housing price in Boston:"+str(i))
 
+#result:
+#[-1.08011358e-01  4.64204584e-02  2.05586264e-02  2.68673382e+00
+# -1.77666112e+01  3.80986521e+00  6.92224640e-04 -1.47556685e+00
+#  3.06049479e-01 -1.23345939e-02 -9.52747232e-01  9.31168327e-03
+# -5.24758378e-01]
+#largest effect on housing price in Boston:5
 
 ## Q2
 # Use a KMeans regression model with the Iris data set. 
